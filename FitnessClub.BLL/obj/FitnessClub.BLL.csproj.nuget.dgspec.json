@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.BLL\\FitnessClub.BLL.csproj": {}
+    "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.BLL/FitnessClub.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.BLL\\FitnessClub.BLL.csproj": {
+    "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.BLL/FitnessClub.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.BLL\\FitnessClub.BLL.csproj",
+        "projectUniqueName": "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.BLL/FitnessClub.BLL.csproj",
         "projectName": "FitnessClub.BLL",
-        "projectPath": "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.BLL\\FitnessClub.BLL.csproj",
-        "packagesPath": "C:\\Users\\sas20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.BLL\\obj\\",
+        "projectPath": "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.BLL/FitnessClub.BLL.csproj",
+        "packagesPath": "/Users/oleksandrs/.nuget/packages/",
+        "outputPath": "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.BLL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sas20\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/oleksandrs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.DAL\\FitnessClub.DAL.csproj": {
-                "projectPath": "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.DAL\\FitnessClub.DAL.csproj"
+              "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/FitnessClub.DAL.csproj": {
+                "projectPath": "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/FitnessClub.DAL.csproj"
               }
             }
           }
@@ -43,11 +41,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,28 +69,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.DAL\\FitnessClub.DAL.csproj": {
+    "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/FitnessClub.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.DAL\\FitnessClub.DAL.csproj",
+        "projectUniqueName": "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/FitnessClub.DAL.csproj",
         "projectName": "FitnessClub.DAL",
-        "projectPath": "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.DAL\\FitnessClub.DAL.csproj",
-        "packagesPath": "C:\\Users\\sas20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sas20\\source\\repos\\APZ_Lab4 FitnessClubSolution\\FitnessClub.DAL\\obj\\",
+        "projectPath": "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/FitnessClub.DAL.csproj",
+        "packagesPath": "/Users/oleksandrs/.nuget/packages/",
+        "outputPath": "/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sas20\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/oleksandrs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -103,15 +106,26 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -130,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
