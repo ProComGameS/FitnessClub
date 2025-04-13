@@ -1,14 +1,29 @@
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.AssemblyInfoInputs.cache
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.AssemblyInfo.cs
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.csproj.CoreCompileInputs.cache
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\bin\Debug\net8.0\FitnessClub.DAL.deps.json
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\bin\Debug\net8.0\FitnessClub.DAL.runtimeconfig.json
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\bin\Debug\net8.0\FitnessClub.DAL.dll
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\bin\Debug\net8.0\FitnessClub.DAL.pdb
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.csproj.AssemblyReference.cache
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.dll
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\refint\FitnessClub.DAL.dll
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.pdb
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\FitnessClub.DAL.genruntimeconfig.cache
-C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.DAL\obj\Debug\net8.0\ref\FitnessClub.DAL.dll
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.AssemblyInfoInputs.cache
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.AssemblyInfo.cs
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.csproj.CoreCompileInputs.cache
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.deps.json
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.runtimeconfig.json
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.dll
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.pdb
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.csproj.AssemblyReference.cache
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.dll
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/refint/FitnessClub.DAL.dll
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.pdb
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.genruntimeconfig.cache
+C:/Users/sas20/source/repos/APZ_Lab4 FitnessClubSolution/FitnessClub.DAL/obj/Debug/net8.0/ref/FitnessClub.DAL.dll
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.deps.json
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.runtimeconfig.json
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.dll
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/bin/Debug/net8.0/FitnessClub.DAL.pdb
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.csproj.AssemblyReference.cache
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.AssemblyInfoInputs.cache
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.AssemblyInfo.cs
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.csproj.CoreCompileInputs.cache
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.sourcelink.json
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.dll
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/refint/FitnessClub.DAL.dll
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.pdb
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/FitnessClub.DAL.genruntimeconfig.cache
+/Users/oleksandrs/Documents/github_repos/FitnessClub/FitnessClub.DAL/obj/Debug/net8.0/ref/FitnessClub.DAL.dll

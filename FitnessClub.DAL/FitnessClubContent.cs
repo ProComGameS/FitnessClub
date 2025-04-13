@@ -1,19 +1,15 @@
-﻿using System.Collections.Generic;
-using System.Data.Entity;
+﻿using Microsoft.EntityFrameworkCore;
 using FitnessClub.DAL.Models;
 
 namespace FitnessClub.DAL
 {
-    /// <summary>
-    /// Контекст бази даних для Фітнес клубу із використанням EF Code First.
-    /// </summary>
     public class FitnessClubContext : DbContext
     {
-        public FitnessClubContext() : base("name=FitnessClubDB")
-        {
-            // Включення lazy loading
-            this.Configuration.LazyLoadingEnabled = true;
-        }
+        public FitnessClubContext(DbContextOptions<FitnessClubContext> options) : base(options) {}
+
+        public FitnessClubContext() : base(new DbContextOptionsBuilder<FitnessClubContext>()
+            .UseSqlite("Data Source=fitnessclub.db")
+            .Options) {}
 
         public DbSet<Club> Clubs { get; set; }
         public DbSet<ClassSession> ClassSessions { get; set; }
@@ -21,14 +17,12 @@ namespace FitnessClub.DAL
         public DbSet<MembershipCard> MembershipCards { get; set; }
         public DbSet<Visit> Visits { get; set; }
 
-        // Налаштування зв’язків за допомогою Fluent API
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Налаштовуємо зв’язок 1:1 між Member та MembershipCard
             modelBuilder.Entity<Member>()
-                .HasOptional(m => m.MembershipCard)
-                .WithRequired(mc => mc.Member);
-            base.OnModelCreating(modelBuilder);
+                .HasOne(m => m.MembershipCard)
+                .WithOne(mc => mc.Member)
+                .HasForeignKey<MembershipCard>(mc => mc.MemberId);
         }
     }
 }

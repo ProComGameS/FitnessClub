@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 
 namespace FitnessClub.DAL
 {
     /// <summary>
-    /// Базова реалізація репозиторію.
+    /// Базова реалізація репозиторію для EF Core.
     /// </summary>
     public class Repository<T> : IRepository<T> where T : class
     {
@@ -38,16 +38,19 @@ namespace FitnessClub.DAL
         public void Insert(T entity)
         {
             _dbSet.Add(entity);
+            _context.SaveChanges();
         }
 
         public void Update(T entity)
         {
             _context.Entry(entity).State = EntityState.Modified;
+            _context.SaveChanges();
         }
 
         public void Delete(T entity)
         {
             _dbSet.Remove(entity);
+            _context.SaveChanges();
         }
     }
 }
