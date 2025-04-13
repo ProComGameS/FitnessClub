@@ -1,0 +1,41 @@
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.AssemblyInfoInputs.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.AssemblyInfo.cs
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.csproj.CoreCompileInputs.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\APZ_Lab4 FitnessClubSolution.exe
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\APZ_Lab4 FitnessClubSolution.dll.config
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\APZ_Lab4 FitnessClubSolution.deps.json
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\APZ_Lab4 FitnessClubSolution.runtimeconfig.json
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\APZ_Lab4 FitnessClubSolution.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\APZ_Lab4 FitnessClubSolution.pdb
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\FitnessClub.BLL.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\FitnessClub.DAL.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\FitnessClub.BLL.pdb
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\bin\Debug\net8.0\FitnessClub.DAL.pdb
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.csproj.AssemblyReference.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4.3CF18E0F.Up2Date
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\refint\APZ_Lab4 FitnessClubSolution.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.pdb
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\APZ_Lab4 FitnessClubSolution.genruntimeconfig.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\APZ_Lab4 FitnessClubSolution\obj\Debug\net8.0\ref\APZ_Lab4 FitnessClubSolution.dll

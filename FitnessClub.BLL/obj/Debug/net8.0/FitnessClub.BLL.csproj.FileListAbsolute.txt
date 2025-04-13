@@ -1,0 +1,17 @@
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.AssemblyInfoInputs.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.AssemblyInfo.cs
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.csproj.CoreCompileInputs.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\bin\Debug\net8.0\FitnessClub.BLL.deps.json
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\bin\Debug\net8.0\FitnessClub.BLL.runtimeconfig.json
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\bin\Debug\net8.0\FitnessClub.BLL.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\bin\Debug\net8.0\FitnessClub.BLL.pdb
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\bin\Debug\net8.0\FitnessClub.DAL.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\bin\Debug\net8.0\FitnessClub.DAL.pdb
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.csproj.AssemblyReference.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessC.AE02D5B5.Up2Date
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\refint\FitnessClub.BLL.dll
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.pdb
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\FitnessClub.BLL.genruntimeconfig.cache
+C:\Users\sas20\source\repos\APZ_Lab4 FitnessClubSolution\FitnessClub.BLL\obj\Debug\net8.0\ref\FitnessClub.BLL.dll
