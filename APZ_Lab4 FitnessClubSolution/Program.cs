@@ -10,26 +10,23 @@ namespace FitnessClub.UI
     {
         static void Main(string[] args)
         {
-            // Налаштування контексту бази даних
-            var optionsBuilder = new DbContextOptionsBuilder<FitnessClubContext>();
-            optionsBuilder.UseSqlite("Data Source=fitnessclub.db");
-
-            using (var context = new FitnessClubContext(optionsBuilder.Options))
+           
+            IUnitOfWork unitOfWork = new UnitOfWork(new FitnessClubContext());
             {
-                context.Database.EnsureCreated(); // Гарантує створення бази
+                unitOfWork.EnsureDatabaseCreated(); // Гарантує створення бази
 
-                IUnitOfWork unitOfWork = new UnitOfWork(context);
                 ClubService clubService = new ClubService(unitOfWork);
                 MemberService memberService = new MemberService(unitOfWork);
 
-                SeedData(context, clubService, memberService);
+                SeedData(unitOfWork, clubService, memberService);
                 ShowMenu(clubService, memberService);
             }
         }
+        
+        private static void SeedData(IUnitOfWork unitOfWork, ClubService clubService, MemberService memberService)
 
-        private static void SeedData(FitnessClubContext context, ClubService clubService, MemberService memberService)
         {
-            if (context.Clubs.Any()) return;
+            if (unitOfWork.ClubRepository.GetAll().Any()) return;
 
             Club club1 = new Club { Name = "Fitness Club A", Location = "Центр" };
             Club club2 = new Club { Name = "Fitness Club B", Location = "Північ" };
@@ -42,8 +39,9 @@ namespace FitnessClub.UI
             ClassSession session1 = new ClassSession { SessionDateTime = DateTime.Now.AddHours(2), Capacity = 20, ClubId = club1.Id };
             ClassSession session2 = new ClassSession { SessionDateTime = DateTime.Now.AddDays(1), Capacity = 15, ClubId = club1.Id };
 
-            context.ClassSessions.AddRange(session1, session2);
-            context.SaveChanges();
+            unitOfWork.ClassSessionRepository.Insert(session1);
+            unitOfWork.ClassSessionRepository.Insert(session2);
+            unitOfWork.Complete();
 
             Console.WriteLine("Дані початкової ініціалізації додано.");
         }
@@ -136,7 +134,16 @@ namespace FitnessClub.UI
             };
 
             bool result = clubService.BuySubscription(clubId, memberId, cardType);
-            Console.WriteLine(result ? "Абонемент куплено успішно." : "Помилка при купівлі абонементу.");
+
+            if (result)
+            {
+                Console.WriteLine("Абонемент успішно куплено!");
+            }
+            else
+            {
+                Console.WriteLine("Помилка: Користувач вже має активний абонемент.");
+            }
+            
         }
     }
 }

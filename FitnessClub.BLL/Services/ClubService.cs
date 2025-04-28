@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
+﻿
 using FitnessClub.DAL;
 using FitnessClub.DAL.Models;
-using Microsoft.VisualBasic;
+
 
 namespace FitnessClub.BLL.Services
 {
@@ -23,7 +20,7 @@ namespace FitnessClub.BLL.Services
         // CRUD операції для Club
         public IEnumerable<Club> GetAllClubs()
         {
-            // Завдяки lazy loading (властивості virtual) можна не використовувати Include тут.
+            
             return _unitOfWork.ClubRepository.GetAll();
         }
 
@@ -68,7 +65,7 @@ namespace FitnessClub.BLL.Services
             if (session.Visits.Count >= session.Capacity)
                 return false;
 
-            // Додаткові умови (перевірка графіку, локації тощо) можна додати тут.
+            
             Visit newVisit = new Visit
             {
                 VisitDate = DateTime.Now,
@@ -81,63 +78,31 @@ namespace FitnessClub.BLL.Services
             return true;
         }
 
-        /// <summary>
-        /// Купівля одноразового заняття через створення або використання існуючої клубної картки (тип OneTime).
-        /// </summary>
-        public bool BuySingleSession(int clubId, int memberId)
-        {
-            var member = _unitOfWork.MemberRepository.GetById(memberId);
-            if (member == null)
-                return false;
-
-            MembershipCard card;
-            if (member.MembershipCard != null)
-            {
-                card = member.MembershipCard;
-            }
-            else
-            {
-                card = new MembershipCard
-                {
-                    CardNumber = Guid.NewGuid().ToString(),
-                    CardType = CardType.OneTime,
-                    MemberId = memberId
-                };
-                _unitOfWork.MembershipCardRepository.Insert(card);
-                _unitOfWork.Complete();
-            }
-
-            // Додаткові бізнес-операції (напр., створення запису Visit) можна реалізувати тут.
-            return true;
-        }
+     
 
         /// <summary>
         /// Купівля абонементу – створення або оновлення клубної картки з відповідним типом.
         /// </summary>
         public bool BuySubscription(int clubId, int memberId, CardType cardType)
         {
-            var member = _unitOfWork.MemberRepository.GetById(memberId);
-            if (member == null)
-                return false;
+            var existingMembership = _unitOfWork.MembershipCardRepository
+                .GetAll()
+                .FirstOrDefault(m => m.MemberId == memberId);
 
-            if (member.MembershipCard != null)
+            if (existingMembership != null)
             {
-                member.MembershipCard.CardType = cardType;
-                _unitOfWork.MembershipCardRepository.Update(member.MembershipCard);
-                _unitOfWork.Complete();
-            }
-            else
-            {
-                MembershipCard card = new MembershipCard
-                {
-                    CardNumber = Guid.NewGuid().ToString(),
-                    CardType = cardType,
-                    MemberId = memberId
-                };
-                _unitOfWork.MembershipCardRepository.Insert(card);
-                _unitOfWork.Complete();
+                return false; // Користувач вже має абонемент
             }
 
+            var newMembership = new MembershipCard
+            {
+                MemberId = memberId,
+                CardType = cardType,
+            };
+
+            _unitOfWork.MembershipCardRepository.Insert(newMembership);
+            _unitOfWork.Complete();
+    
             return true;
         }
     }

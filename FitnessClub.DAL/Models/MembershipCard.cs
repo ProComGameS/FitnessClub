@@ -22,9 +22,12 @@ namespace FitnessClub.DAL.Models
         public string CardNumber { get; set; }
         public CardType CardType { get; set; }
 
-        // Зв’язок 1:1 з Member (через MemberId)
+        // Зв’язок 1:1 з Member
         public int MemberId { get; set; }
         public virtual Member Member { get; set; }
+
+       
+         
 
         public virtual ICollection<Visit> Visits { get; set; }
 
@@ -33,4 +36,5 @@ namespace FitnessClub.DAL.Models
             Visits = new HashSet<Visit>();
         }
     }
+
 }

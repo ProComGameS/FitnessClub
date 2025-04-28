@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APZ_Lab4 FitnessClubSolution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c03ad34bf3b5d50b54ce81db69142e74a4c1f38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d030d0570ceb060c73e4295ae7e2f19f4821ad2")]
 [assembly: System.Reflection.AssemblyProductAttribute("APZ_Lab4 FitnessClubSolution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APZ_Lab4 FitnessClubSolution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,6 +12,7 @@ namespace FitnessClub.DAL
         IRepository<Member> MemberRepository { get; }
         IRepository<MembershipCard> MembershipCardRepository { get; }
         IRepository<Visit> VisitRepository { get; }
+        void EnsureDatabaseCreated();
         int Complete(); // Застосування змін (SaveChanges)
     }
 }

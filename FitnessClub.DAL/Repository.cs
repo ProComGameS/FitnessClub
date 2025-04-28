@@ -6,9 +6,7 @@ using System.Linq.Expressions;
 
 namespace FitnessClub.DAL
 {
-    /// <summary>
-    /// Базова реалізація репозиторію для EF Core.
-    /// </summary>
+
     public class Repository<T> : IRepository<T> where T : class
     {
         protected readonly FitnessClubContext _context;

@@ -18,6 +18,12 @@ namespace FitnessClub.DAL
         {
             _context = context;
         }
+        
+        public void EnsureDatabaseCreated()
+        {
+            _context.Database.EnsureCreated();
+        }
+
 
         public IRepository<Club> ClubRepository => _clubRepository ?? (_clubRepository = new Repository<Club>(_context));
         public IRepository<ClassSession> ClassSessionRepository => _classSessionRepository ?? (_classSessionRepository = new Repository<ClassSession>(_context));
@@ -25,10 +31,14 @@ namespace FitnessClub.DAL
         public IRepository<MembershipCard> MembershipCardRepository => _membershipCardRepository ?? (_membershipCardRepository = new Repository<MembershipCard>(_context));
         public IRepository<Visit> VisitRepository => _visitRepository ?? (_visitRepository = new Repository<Visit>(_context));
 
+      
+        
         // Застосування змін до бази
         public int Complete()
         {
             return _context.SaveChanges();
         }
+
+        
     }
 }
